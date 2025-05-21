@@ -1,6 +1,6 @@
 # Unity Energy Benchmark – Fantasy Kingdom Edition
 
-This project contains a complete energy and performance benchmark based on Unity's **Fantasy Kingdom** demo scene. It compares **Mono** and **IL2CPP** runtime performance on **macOS with Apple Silicon (M1/M2/M3)**.
+This project contains a complete energy and performance benchmark based on Unity's **Fantasy Kingdom** demo scene. It analyzes energy performance on **macOS with Apple Silicon (M1/M2/M3)**.
 
 The benchmark is fully integrated — no need to add scripts or modify the Unity project. Just build and run.
 
