@@ -881,9 +881,11 @@ PlayerSettings:
   platformArchitecture: {}
   scriptingBackend:
     Android: 1
-    Standalone: 0
-  il2cppCompilerConfiguration: {}
-  il2cppCodeGeneration: {}
+    Standalone: 1
+  il2cppCompilerConfiguration:
+    Standalone: 2
+  il2cppCodeGeneration:
+    Standalone: 1
   il2cppStacktraceInformation: {}
   managedStrippingLevel:
     Android: 1
