@@ -10,18 +10,38 @@ pylab.rcParams.update(params)
 
 
 input_files = [
+    "IL2CPP-Dev-FasterBuild-Debug-Build",
+    "IL2CPP-FasterBuild-Debug-Build",
     "IL2CPP-Dev-FasterBuild-Release-Build",
     "IL2CPP-FasterBuild-Release-Build",
+    "IL2CPP-Dev-FasterBuild-Master-Build",
+    "IL2CPP-FasterBuild-Master-Build",
+    "IL2CPP-Dev-FasterRuntime-Debug-Build",
+    "IL2CPP-FasterRuntime-Debug-Build",
     "IL2CPP-Dev-FasterRuntime-Release-Build",
-    "IL2CPP-FasterRuntime-Release-Build"
+    "IL2CPP-FasterRuntime-Release-Build",
+    "IL2CPP-Dev-FasterRuntime-Master-Build",
+    "IL2CPP-FasterRuntime-Master-Build",
+    "Mono-Dev",
+    "Mono"
 ]
 
 if __name__ == '__main__':
     labels = [
-        "Dev-FB",
-        "FB",
-        "Dev-FR",
-        "FR"
+        "Dev-FB-D",
+        "FB-D",
+        "Dev-FB-R",
+        "FB-R",
+        "Dev-FB-M",
+        "FB-M",
+        "Dev-FR-D",
+        "FR-D",
+        "Dev-FR-R",
+        "FR-R",
+        "Dev-FR-M",
+        "FR-M",
+        "Mono-Dev",
+        "Mono"
     ]
 
     tags = labels.copy()
